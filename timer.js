@@ -11,11 +11,11 @@ let countDownfunction = setInterval(function(){
     /*conditionals for proper zero placement in fron of numbers <10> */
 document.getElementById('countDown').textContent= days + "d  " + hours + 'h  ' + minutes + 'm  '
 + seconds + 's  ';
-
-document.getElementById('day').textContent= days + "D  ";
-document.getElementById('hour').textContent= hours + "H  ";
-document.getElementById('minute').textContent= minutes + "M  ";
-document.getElementById('second').textContent= seconds + "S  ";
+//below is the speicific variables to attach to specific spans
+//document.getElementById('day').textContent= days + "D  ";
+//document.getElementById('hour').textContent= hours + "H  ";
+//document.getElementById('minute').textContent= minutes + "M  ";
+//document.getElementById('second').textContent= seconds + "S  ";
 
 if(time <0) {
     clearInterval(countDownfunction)
